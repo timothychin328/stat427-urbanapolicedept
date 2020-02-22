@@ -1,0 +1,34 @@
+---
+title: "Project Code Tim"
+author: "Timothy Chin"
+date: "2/22/2020"
+output: pdf_document
+---
+
+
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+traffic = read.csv("traffic_stop_data.csv")
+```
+
+```{r}
+dim(traffic)
+```
+
+```{r}
+head(traffic)
+```
+
+```{r}
+table(traffic$AGE.AT.CONTACT)
+```
+
+
+```{r}
+
+```
+
